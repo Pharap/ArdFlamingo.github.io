@@ -1,1 +1,14 @@
+h1 {
+  color:black; 
+  font-family: arial;
+}
 
+h2 {
+  color:blue; 
+  font-family: trebuchet ms;
+}
+
+p {
+  color:black;
+  font-family: verdana;
+} 
