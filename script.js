@@ -5,11 +5,19 @@ document.querySelector("h1").onmouseover = event => {
   
   const interval = setInterval(() => {
     event.target.innterText = event.target.innerText.split("")
-      .map(letter => letters[Math.floor(Math.random() * 26)];
+      .map((letter, index) => {
+      if (index < iterations) {
+        return event.target.dataset.value[index];
+      }
+      
+      return letters[Math.floor(Math.random() * 26)];
+    })
       .join("");
     
-    if (iterations >- 9) clearInterval(iterval);
+    if (iterations >= event.target.dataset.value.length) {
+      clearInterval(iterval);
+    }
     
-    iterations += 1;
+    iterations += 1 / 3;
   }, 1000);
 }
