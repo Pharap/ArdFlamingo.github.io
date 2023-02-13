@@ -1,14 +1,21 @@
 h1 {
   color:black; 
   font-family: arial;
+  text-align: center;
 }
 
 h2 {
   color:blue; 
   font-family: trebuchet ms;
+  text-align: center;
 }
 
 p {
   color:black;
   font-family: verdana;
+  text-align: center;
 } 
+
+.Ard_Flamingo {
+  color:red;
+}

@@ -31,6 +31,6 @@ window.onload = function ()
 		}
 		
 		iteration += 1 / 2;
-	  }, 10);
+	  }, 4);
 	}
 }
