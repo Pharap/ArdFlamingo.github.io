@@ -1,4 +1,4 @@
-const letters = "abcdefghijklmnopqrstuvwxyz";
+const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 let interval = null;
 
@@ -34,8 +34,8 @@ window.onload = () =>
 				element.innerHTML = innerHTML;
 			}
 			
-			iteration += 1 / 2;
-		}, 5);
+			iteration += 1 / 3;
+		}, 8);
 	};
 	
 	action();

@@ -1,6 +1,6 @@
 h1 {
   color:black; 
-  font-family: arial;
+  font-family: 'Roboto Mono', monospace;
   text-align: center;
 }
 
@@ -15,6 +15,10 @@ p {
   font-family: verdana;
   text-align: center;
 } 
+
+body {
+  font-family: monospace;
+}
 
 .Ard_Flamingo {
   color:red;
