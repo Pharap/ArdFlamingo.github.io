@@ -5,19 +5,19 @@ h1 {
 }
 
 h2 {
-  color:blue; 
-  font-family: trebuchet ms;
+  color:black; 
+  font-family: 'Cousine', monospace;
   text-align: center;
 }
 
 p {
   color:black;
-  font-family: verdana;
+  font-family: 'Inconsolata', monospace;
   text-align: center;
 } 
 
 body {
-  font-family: monospace;
+  background-color: lightskyblue;
 }
 
 .Ard_Flamingo {
