@@ -22,9 +22,13 @@ p {
   text-align: center;
 } 
 
+.link {
+  color: orange;
+}
+
 body {
   background-color:#121212;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .Ard_Flamingo {
